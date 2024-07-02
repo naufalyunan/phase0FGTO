@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+  /* background-color: blue; */
+}
+
+.maxwh {
+  width: 50vw;
+  height: 100vh;
+  background-color: brown;
+  padding: 0%;
+}
+
+.nav-container {
+  width: 50vw;
+  background-color: aqua;
+  padding: 0;
+  margin: 0;
+}
+
+.left-panel {
+  background-color: green;
+  /* height: 100vh; */
+}
+.right-panel {
+  background-color: orange;
+  /* height: 100vh; */
+}
+
+.carousel-title-container {
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+  bottom: 2%;
+  background-color: transparent;
+}
+.carousel-title {
+  text-align: center;
+}

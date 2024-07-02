@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="nav-container">
+      <ul class="nav justify-content-end" style="padding: 0%; margin: 0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Login</a>
+        </li>
+      </ul>
+    </div>
+    <div class="container-fluid maxwh">
+      <div class="row">
+        <div class="col-8 left-panel">
+          <!-- carousel -->
+          <p class="h2 pt-4 px-4">Breaking News</p>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide p-4"
+            style="width: 100%"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="./assets/carousel1.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-title-container">
+                  <p class="h4 carousel-title">This is the title 1</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/carousel2.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-title-container">
+                  <p class="h4 carousel-title">This is the title 2</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./assets/carousel5.webp"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-title-container">
+                  <p class="h4 carousel-title">This is the title 3</p>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p class="h2 px-4 py-2">Latest Stories</p>
+          <div class="pt-4 px-4" id="container-news"></div>
+        </div>
+        <div class="col-4 right-panel py-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title px-2 py-2">Upcoming Events</h5>
+              <ul class="list-group">
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-start flex-column"
+                  >
+                    <p class="text-body-secondary">July 24 - 25, 2024</p>
+                    <p class="h6 px-0 py-0 mx-0 my-0">
+                      Tech in Asia Conference Kuala Lumpur
+                    </p>
+                  </div>
+                  <span class="badge text-bg-primary rounded-pill">14</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-start flex-column"
+                  >
+                    <p class="text-body-secondary">July 24, 2024</p>
+                    <p class="h6 px-0 py-0 mx-0 my-0">
+                      KL Conference Exclusive: Networking Night
+                    </p>
+                  </div>
+                  <span class="badge text-bg-primary rounded-pill">2</span>
+                </li>
+                <li
+                  class="list-group-item d-flex justify-content-between align-items-center"
+                >
+                  <div
+                    class="d-flex justify-content-center align-items-start flex-column"
+                  >
+                    <p class="text-body-secondary">July 25, 2024</p>
+                    <p class="h6 px-0 py-0 mx-0 my-0">
+                      Founders Meetup: Malaysia
+                    </p>
+                  </div>
+                  <span class="badge text-bg-primary rounded-pill">1</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="card my-4">
+            <div class="card-body">
+              <h5 class="card-title px-3 py-1">Latest Jobs</h5>
+              <ul class="list-group list-group-flush" id="jobs-container">
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-8">
+                      <p class="h6 my-0 mx-0">FE DEv</p>
+                      <p class="text-body-secondary">Company</p>
+                    </div>
+                    <div class="col-4">
+                      <img src="" alt="" />
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./content.json"></script>
+    <script src="./index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
