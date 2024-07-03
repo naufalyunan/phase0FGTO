@@ -62,3 +62,27 @@ body {
 .text-home {
   color: brown;
 }
+
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: #ffffff; /* White text */
+}
+.footer a {
+  color: #ffffff;
+}
+.footer a:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+.social-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.socmed-text {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.footer-address {
+  font-size: small;
+  margin: 0;
+}

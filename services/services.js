@@ -181,6 +181,95 @@ const posts = [
       "https://cdn.techinasia.com/wp-content/uploads/2024/07/1719847045_Featured-image-Heymax-ai-fundraising.png",
     is_premium: false,
   },
+  {
+    id: 11,
+    title: "Shein outshines H&M as IPO approaches",
+    content:
+      "Sign up for the Daily Newsletter, sent exclusively to our premium subscribers. We break down the big and messy topics of Asia’s tech and startup community. Get the newsletter in your inbox everyday with a premium subscription.\nHello reader,\nA fashionista I am not, but I do enjoy a bit of clothing bargain hunting.\nI was recently in Hoi An in central Vietnam with some friends and if you’ve ever been, you’ll know it’s the perfect place to restock your wardrobe. There are tailors on practically every corner of the town’s old quarter that do sterling work for affordable prices.\nHowever, one member of our group did try to compare some of the prices we were offered in-person to similar options available online. That struck the rest of us as being a bit unfair on the vendors, as how are they supposed to compete with fashion giants that have economies of scale and myriad other advantages?\nThe vendors of Hoi An certainly don’t have a war chest like online fashion retailer Shein does. The China-founded firm’s 2022 financials were recently released and its eye-popping revenue growth likely augurs well for a potential IPO.\nToday we look at:\n\n\nShein’s solid financials as it eyes an IPO \nHow Bybit became the world’s second-largest crypto exchange\nOther newsy highlights such as Indonesian rooftop solar rental firm Xurya raising US$55 million and flying taxi startup Aerofugia scoring a series B round.\n\n\nPremium summary\nFinancials fit for an IPO?\n\nImage credit: Timmy Loen\n\nUltra-fast fashion retailer Shein looks set to go public in London in the near future on the back of some solid financial results.\nRoadget Business, the firm’s Singapore-incorporated entity, raked in US$21.6 billion in revenue in 2022, roughly 4x the previous year.\n\n\nUpwardly mobile: That revenue growth helped to translate to a net profit of US$634 million in 2022, up by over 3x from the year before. This put Roadget Business just ahead of fashion giant H&M in revenue. Notably, Shein expanded rapidly into Southeast Asia in 2022.\n\nMomentum: Shein’s 2023 financials have yet to be released, but the Financial Times previously reported that the firm’s profit topped US$2 billion for the year. Its gross merchandise value reportedly hit around US$45 billion in the same year.\n\nChange of direction: Shein has reportedly filed for an IPO in London, though the date of the listing is unclear. The China-founded company initially hoped to list in New York, but those plans were scuppered by trade tensions between the US and China.\n\nRead more: Shein’s 2022 sales grow 4x ahead of IPO to close in on Zara\n\nNews spotlight\nNumber go up for Bybit\n\nImage credit: TImmy Loen\n\nAfter cryptocurrency trading platform FTX crashed and burned in spectacular fashion, its users had to go somewhere to get their token fix.\nBloomberg has reported that many went to Bybit, which is now second globally in trading volume.\n\n\nRapid rise: Ben Zhou, co-founder and CEO of Dubai-based Bybit Fintech, said the growth in user numbers was brought on by offering a service that allows digital tokens to be used as collateral for margin trading. The firm’s share of global trading doubled to 16% since October, putting it behind only Binance.\n\nMarket share: Zhou added that Europe is Bybit’s biggest market, making up 30% to 35% of trading volume. Roughly 20% comes from the Commonwealth of Independent States, a grouping of former Soviet nations that includes Russia.\n\nBy the numbers: Bybit was launched in 2018 and said it has more than 30 million users. CoinGecko data shows Bybit’s trading volume in the past 24 hours is just under half that of Binance.\n\nSee also: How a Singaporean ex-teacher landed top Web3 job from UAE royalty\n\nKL conference exclusive: Networking Night on July 24\nThe future of tech is in the connections you make at Botanica+Co\n\nJoin us for Tech in Asia Conference Kuala Lumpur’s Networking Night, where you’ll get the opportunity to connect with the brightest minds and most influential players in Asia’s tech ecosystem, all while enjoying panoramic city views and delicious treats.\nThis exclusive event is only open to Tech in Asia Conference Kuala Lumpur Pro Pass holders. Secure your spot on our guest list today!.\nDon’t have a Pro Pass yet? Get yours here before they’re all gone.\n\nQuick bytes\n1️⃣ Raise the roof\nXurya, a solar power firm, has received US$55 million in additional investment. The Norwegian Climate Investment Fund, which is managed by Norfund, led the deal. The Indonesia-based startup offers rooftop solar rental without initial cost and is said to have raised more than US$90 million in investment so far.\n2️⃣ New heights for Aerofugia\nFlying taxi startup Aerofugia has secured an undisclosed amount of series B funding, with Chinese state-backed investment fund Orinno Capital leading the round. The startup is a subsidiary of Chinese automaker Geely.\n3️⃣ A shift in the matrix\nMatrix has become the latest venture capital firm to split up its international franchises, with a rebrand of its China and India affiliates. The US-headquartered firm announced that Matrix Partners India will become Z47 and Matrix Partners China will take the name MPC.\n4️⃣ Funding boost\nSmartHR, a Japanese firm that provides a cloud-native human resources management platform, has netted US$140 million in series E funding. The round was jointly led by global investment firm KKR and Teachers’ Venture Growth, the late-stage venture and growth investment arm of Ontario Teachers’ Pension Plan.",
+    author: {
+      first_name: "Peter",
+      last_name: "Cowan",
+      display_name: "Peter Cowan",
+      avatar_url:
+        "https://cdn.techinasia.com/wp-content/authors/890897.jpg?v=1715760175",
+    },
+    excerpt:
+      "We look at the fast-fashion giant’s 2022 financials as it gears up for an IPO and how crypto exchange Bybit stepped in to fill the void left by FTX.",
+    image_src:
+      "https://cdn.techinasia.com/wp-content/uploads/2023/05/1684478990_Newsletter-GIF-Piecing-the-mirror-back-together-1200x640-1200x640-1.gif",
+    is_premium: false,
+  },
+  {
+    id: 12,
+    title: "Meet the 50 top-funded startups and tech companies in Singapore",
+    content:
+      "Who are the movers and shakers in Singapore’s tech scene? One way to judge – although imperfect – would be the amount of money they have raised. Using Tech in Asia’s data, we’ve generated this constantly updated list of 50 startups and tech companies in Singapore that have raised the most money from investors.\nTo keep the list fresh, we’ve only included funding data from the past two years.\nSeeking more? Search the most comprehensive database of tech companies in Asia or read our research methodology. For more auto-generated lists of startup funding data, head here.\n",
+    author: {
+      first_name: "TIA",
+      last_name: "Bot",
+      display_name: "TIA Bot",
+      avatar_url:
+        "https://cdn.techinasia.com/wp-content/authors/181640.png?v=1522642269",
+    },
+    excerpt:
+      "Here are the companies in Singapore that are attracting tons of investors and have the resources to spend on software, talent, and expansion.",
+    image_src:
+      "https://cdn.techinasia.com/wp-content/uploads/2017/12/55476313_l.jpg",
+    is_premium: true,
+  },
+  {
+    id: 13,
+    title: "What Singapore needs to make deeptech dream a reality",
+    content:
+      "IN FOCUS\nIn today’s newsletter, we look at:\n\nSingapore holds onto its deeptech ambitions despite struggles\nSingaporean gives up chicken rice for Dubai Web3 boom\nSurge in power requirements will keep climate tech dependent on fossil fuels\n\n\nWelcome to On the Rise! Delivered every Tuesday via email and through the Tech in Asia website, this free newsletter breaks down the biggest stories and trends in emerging tech. If you’re not a subscriber, get access by registering here.\n\nHi there,\nI won’t begin with an anecdote like we usually do to ease you into our Big Stories. Instead, I wanted to take a brief moment to thank all our readers for keeping us going, as this month marks the two-year anniversary of the launch of On the Rise.\nBut we’ve decided it’s time for some changes, particularly with the format. We’re hoping to infuse a bit more creativity and fluidity into what we write.\nTo be honest, even writing a weekly newsletter on emerging tech can become monotonous and boring after a while. After all, human change is the only constant.\nWhile some changes like this can be done quickly, bigger changes often take more time. Take for instance Singapore’s deeptech ambitions.\nThe city-state, which has been pushing to be a deeptech hub for a while, has seen several startups either perish due to lack of funding or exit the country for greener pastures in the US. This is exactly what Elyssa dives into in our first Big Story: Singapore’s deeptech blueprint takes shape, but hurdles dent ambitions.\n\nImage credit: Made by Tech in Asia using Midjourney\n\nShe highlights how the city-state has invested close to US$1 billion into the deeptech sector over the last four years. Despite this, even established deeptech ecosystem builders such as Entrepreneur First have exited Singapore due to the country’s small talent pool.\nBut government funding isn’t the answer to Singapore’s deeptech problem, experts say. Keeping the country’s deeptech dreams alive requires a more nuanced approach.\nSpeaking of Singaporeans moving out, our next Big Story looks at how a Singaporean ex-teacher landed a top Web3 job from UAE royalty. In this piece, Scott follows the journey of Derek Lim, a former educator turned crypto trader who is heading to Dubai to take the role as head of a Web3 studio run by a member of an Emirati royal family.\n\nImage credit: Tech in Asia\n\nDrawing foreign talent such as Lim is part of the United Arab Emirates’ ambition to turn the nation into a global crypto hub. Crypto is extremely popular in the country, not only for investments but also for daily use.\nIt’s quite fascinating that the UAE is making a push in the Web3 industry at a time when many other countries are still wary of crypto. And rightly so – the sector has seen countless scams and digital assets remain highly volatile.\nBut Web3 isn’t the only industry facing pushback for its failings. I am also concerned about what is going on in the climate tech industry.\nLast month, Europe witnessed a US$5.4 billion fraud in the carbon credits market. Trying to make environmental protection part of the market economy seemed flawed to me, and this was bound to happen. Carbon offsets gave companies the opportunity to continue their emissions by just buying their way out of the problem.\nAnother greentech vertical facing backlash is the electric vehicle industry for using diesel to provide power to battery-charging stations. This is inaccurate, and several reports have fact-checked the social media posts that spread this falsehood. But the fact is that diesel generators are used as “backup power” for solar in many markets.\nIn California, diesel generators are being used to “fill in the gaps” of renewable energy supplies for EVs.\n\nPhoto credit: Shutterstock\n\nAs countries around the world make a push for EVs, it is becoming evident that the world’s energy supply may become strained. Add the demands of a power-hungry AI industry, which this report illustrates, and you can foresee the havoc this energy crunch will cause.\nIn Southeast Asia and India, most of the energy still comes from fossil fuels such as oil, natural gas, and coal.\nSadly, renewable sources aren’t reliable and enough to power the requirements of the EV and AI industries. Countries will continue to be reliant on both renewable and nonrenewable sources in order to meet the energy requirements of these sectors.\n– Collin\n\nDeep reads\n1️⃣ Reddit’s IPO signals thawing tech winter, but listing game has changed: The listing of the social media giant on the New York Stock Exchange was one of the most anticipated IPOs of the past five years. And it lived up to expectations – Reddit’s share price rose by over 50% on the first day of trading. As several tech listings on US exchanges haven’t performed well since 2023, Reddit’s market debut builds confidence among other startups looking to go the IPO route.\n\nImage credit: Timmy Loen\n\n2️⃣ Indonesia’s coffee boom enters new phase with affordable brews: In Indonesia, coffee startups seem to be in a race to introduce affordable brands that offer a brew for less than a dollar. They want to tap into larger market opportunities with less saturation. But the question is whether this play will bring profits.\n3️⃣ The rise of the AI beauty pageant and its complicated quest for the ‘perfect’ woman: Recently, 10 contestants were selected from over 1,500 entries for the finals of Miss AI, a beauty pageant that showcases AI-generated women. Such contests are a growing trend and reflect the biases and standards of beauty set by the West instead of challenging them.\n\nThat’s it for this edition – we hope you liked it! Do also check out previous issues of the newsletter here.\nSee you next week!",
+    author: {
+      first_name: "Collin",
+      last_name: "Furtado",
+      display_name: "Collin Furtado",
+      avatar_url:
+        "https://cdn.techinasia.com/wp-content/authors/449210.jpg?v=1627114100",
+    },
+    excerpt:
+      "This week’s On the Rise dives into Singapore’s woes with deeptech, UAE’s efforts to become a global Web3 hub, and the price of power on climate tech.",
+    image_src:
+      "https://cdn.techinasia.com/wp-content/uploads/2024/07/1719820738_hiddensquid8707_Singapores_Merlion_statue_surrounded_by_abandon_5302530a-93c1-425d-b4f2-1ecc17c7ca38.png",
+    is_premium: false,
+  },
+  {
+    id: 14,
+    title: "No profit, no problem: Singapore’s digital banks in 6 charts",
+    content:
+      "It’s been just over two years since Green Link Digital Bank (GLDB) became the first digital bank to start operations in Singapore.\nThis was followed in quick succession by ANEXT, GXS Bank, and Trust Bank, with MariBank being the last to enter the game.\n\nWith at least a full year of operations under their belt – apart from MariBank – it’s a good time to evaluate how these digital banks are faring, with the caveat that they’re still in their infancy.\nFor comparison, we have included the performance of South Korea’s KakaoBank. Founded in 2016, the bank provides a benchmark as to how a successful digital bank in a developed market might perform over time.\nIt’s also worth noting that as digital wholesale banks, GLDB and ANEXT bank serve businesses exclusively, while GXS Bank, MariBank, and Trust Bank can serve both retail customers and businesses. Trust Bank, however, appears to be offering banking products to only consumers for now.\nCombined revenue a fraction of KakaoBank’s\nFor 2023, the five Singapore-based digital banks recorded a combined total revenue of US$72 million, 6% of what KakaoBank achieved that year. Bear in mind, however, that the Singapore players are much newer, and the Singapore economy is around a quarter the size of South Korea’s.\nOf the five, Trust Bank had the highest revenue, while GXS Bank suffered the biggest loss.\n\nUnlike KakaoBank, none of Singapore’s digital banks are yet profitable. To achieve that, they will have to lower their cost-to-income ratio.\nKakaoBank’s cost-to-income ratio of 53% in 2023 is in line what is considered “acceptable” for traditional retail banks, which typically have a ratio of around 50% to 60%.\n\nAny figure above 100% indicates that the bank’s operating expenses exceed its operating income.\nLoan way to go\nThe bread and butter of banking is taking in deposits from customers and using these deposits to extend loans. In order to run a profitable business, the interest charged on loans must be higher than the interest it pays on deposits.\nGiven their infancy and Singapore’s small market size, it’s no surprise that the Singapore players still have small deposit bases compared to KakaoBank. Of the five, Trust Bank has attracted the most deposits.\nThis might be expected since unlike the other banks, Trust was riding off Standard Chartered’s banking license and so was not subject to the initial S$50 million (US$37 million) deposit cap initially placed on GXS Bank and MariBank by the Monetary Authority of Singapore – this limit was lifted in mid-2023.\nGLDB and ANEXT, the digital wholesale banks which do not take deposits from retail consumers, placed fourth and fifth among the Singapore banks.\n\nSimilarly, when it comes to loans disbursed, Trust Bank comes out ahead, although it is the wholesale digital banks – ANEXT and GLDB – which take silver and bronze. This may partly be because they had a headstart on the others, launching their loan products in November and September 2022, respectively.\n\nLoans are only one type of asset that banks have on their balance sheets. Other assets include government securities, and cash placed with the central bank or other financial institutions. However, for most banks, their main asset should take the form of loans.\nIn South Korea, 71% of KakaoBank’s assets are loans, while the percentage of loans to total assets among the Singapore digital banks ranges from 4% for MariBank to 33% for GLDB.\nOver time, we should expect this number to rise to levels that are more in line with KakaoBank’s since making loans is the main way these banks will make money.\nImpairment versus NPL\nSometimes, borrowers may be unable to pay back some or all of their loans, and this shows up in a bank’s financial statements as an impairment.\nKakaoBank’s impairment levels as a percentage of loans was 0.6% in 2023. GXS Bank is at the other end of the scale, with impairments accounting for 10.4% of total loan amount.\n\nNote that in Grab’s first-quarter results for 2024, the firm said that GXS Bank’s non-performing loans (NPLs) were 2% of its loan portfolio.\nWhy the discrepancy? This is because impairments and NPLs are two different concepts, with impairment being an accounting term and NPLs a regulatory one. As an accounting measure, a loan could be marked as impaired if it is deemed not likely to be repaid in full, even if payments have not been missed.\nAs such, the difference is one of degree, with impaired loans still having a chance of recovery, whereas NPLs are more serious.\nThe making of loans is one example of how banks support consumers and businesses. The flipside of this is that banks’ failure may present a systemic threat to a country’s financial system and wider economy.\nIn order to protect the economy from a banking crisis, banking regulators introduced Common Equity Tier 1 (CET-1) requirements in 2014. Under the rules, banks are expected to hold a certain percentage of liquid assets (such as cash and stock) against their total assets, which are weighted by risk.\nCurrently, the Monetary Authority of Singapore requires banks to have a minimum CET-1 of 6.5%. However, in practice, banks typically maintain far higher CET-1 ratios.\n\nMAS headquarters in central Singapore / Photo credit: Tech in Asia\n\nFor example, DBS, Singapore’s biggest bank by assets, had a CET-1 ratio of 14.7% as of March 2024.\nSingapore’s digital banks far exceed the minimum requirements, with ratios ranging from 24% to 634%. Of course, this can be expected to decrease over time as they start to make more loans and develop their businesses.\n\nGiven the importance of fintech to the overall businesses of Southeast Asia’s tech giants, we can expect more developments in the space, such as last week’s news that GXS Bank secured an additional S$229.5 million (US$169 million) in capital from Singtel and Grab.\nOne thing’s for sure – 2024’s numbers will look very different from last year’s.\nCurrency converted from Singapore dollar to US dollar: US$1 = S$1.35 and from Korean won to US dollar: US$1 = KRW1390",
+    author: {
+      first_name: "Simon",
+      last_name: "Huang",
+      display_name: "Simon Huang",
+      avatar_url:
+        "https://cdn.techinasia.com/wp-content/authors/246160.jpg?v=1600051284",
+    },
+    excerpt:
+      "If South Korea’s KakaoBank is the benchmark, Singapore’s digital banks still have some ways to go.",
+    image_src:
+      "https://cdn.techinasia.com/wp-content/uploads/2024/07/1719891206_Featured-image-No-profit-no-problem-Singapores-digital-banks-in-six-charts.png",
+    is_premium: false,
+  },
+  {
+    id: 15,
+    title: "50 rising startups in Singapore",
+    content:
+      "Which startups are on the path to becoming the next big thing? One way to tell would be to check when they’ve raised a new round. Using Tech in Asia data, we’ve generated a list of startups in Singapore that have recently raised funding.\nThe constantly updated list only covers companies up to the series E stage. Each entry includes key details about the funding round.\nSeeking more? Search the most comprehensive database of tech companies in Asia or read our research methodology. For more auto-generated lists of rising startups, head here.\n",
+    author: {
+      first_name: "TIA",
+      last_name: "Bot",
+      display_name: "TIA Bot",
+      avatar_url:
+        "https://cdn.techinasia.com/wp-content/authors/181640.png?v=1522642269",
+    },
+    excerpt: "Which startups are on the path to becoming the next big thing?",
+    image_src:
+      "https://cdn.techinasia.com/wp-content/uploads/2021/05/1620098339_singapore.jpg",
+    is_premium: false,
+  },
 ];
 
 const jobs = [
@@ -244,42 +333,37 @@ const jobs = [
     company: "Tiket.com",
     img_src: "../assets/job8.png",
   },
+  {
+    id: 11,
+    name: "Back End Developer",
+    company: "Putra Jaya Nusantara",
+    img_src: "../assets/job6.jpg",
+  },
+  {
+    id: 12,
+    name: "Data Scientist",
+    company: "Pacmann.io",
+    img_src: "../assets/job6.jpg",
+  },
+  {
+    id: 13,
+    name: "Software Developer",
+    company: "Pacmann.io",
+    img_src: "../assets/job8.png",
+  },
+  {
+    id: 14,
+    name: "Geospecialist",
+    company: "Badan Informasi Geospasial",
+    img_src: "../assets/job2.png",
+  },
+  {
+    id: 15,
+    name: "Dota 2 Player",
+    company: "PSG LGD",
+    img_src: "../assets/job4.png",
+  },
 ];
-
-document.addEventListener("DOMContentLoaded", () => {
-  const rightPanel = document.getElementById("rightPanel");
-  const lastItem = rightPanel.querySelector(".last-item");
-
-  // const containerHeight = rightPanel.clientHeight;
-  // const contentHeight = rightPanel.scrollHeight;
-  // const scrollTop = window.scrollY;
-
-  // console.log("containerHeight ", containerHeight);
-  // console.log("contentHeight", contentHeight);
-  // console.log("scrollTop ", scrollTop);
-  // console.log("sum ", containerHeight + scrollTop);
-
-  function adjustLastItemPosition() {
-    const containerHeight = rightPanel.clientHeight;
-    const contentHeight = rightPanel.scrollHeight;
-    const scrollTop = window.scrollY;
-
-    console.log("containerHeight ", containerHeight);
-    console.log("contentHeight", contentHeight);
-    console.log("scrollTop ", scrollTop);
-    console.log("sum ", containerHeight + scrollTop);
-
-    if (scrollTop + containerHeight >= contentHeight) {
-      lastItem.style.position = "relative";
-    } else {
-      lastItem.style.position = "absolute";
-      lastItem.style.bottom = "0";
-    }
-  }
-
-  window.addEventListener("scroll", adjustLastItemPosition);
-  window.addEventListener("resize", adjustLastItemPosition);
-});
 
 function showNews() {
   const newsContainer = document.getElementById("container-news");
@@ -329,7 +413,7 @@ const showJobs = () => {
     listEl.innerHTML = `
         <div class="row">
             <div class="col-10">
-                <p class="h6 mt-2 mb-4 mx-0">${el.name}</p>
+                <p class="h6 mx-0">${el.name}</p>
                 <p class="text-body-secondary">${el.company}</p>
             </div>
             <div class="col-2 d-flex justify-content-center align-items-center">

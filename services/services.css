@@ -5,13 +5,17 @@ body {
   height: 100%;
 }
 
-.container-fluid {
+.title {
+  color: navy;
+}
+
+.container-fluid body {
   display: flex;
   height: 100vh;
 }
 
 .nav-link {
-  color: navy;
+  color: #dee0df;
   font-weight: 600;
 }
 
@@ -22,37 +26,29 @@ body {
 .maxwh {
   width: 100%;
   height: 100%;
-  /* background-color: brown; */
   padding: 0%;
 }
 
-.nav-container {
-  width: 100%;
-  background-color: aqua;
-  padding: 0;
-  margin: 0;
+.nav {
+  background-color: navy;
 }
 
 .left-panel {
-  /* background-color: green; */
-  /* height: 100vh; */
+  flex: 1;
   overflow-y: auto;
   padding: 10px;
 }
+
 .right-panel {
-  /* background-color: orange; */
-  /* height: 100vh; */
-  position: relative;
-  height: 100vh;
-  /* display: flex;
-  flex-direction: column; */
+  position: sticky;
+  top: 0;
+  height: fit-content;
+  overflow-y: visible;
 }
 
 .last-item {
-  position: relative;
-  bottom: 0;
+  position: sticky;
   width: 100%;
-  background-color: red;
 }
 
 .carousel-title-container {
@@ -64,4 +60,28 @@ body {
 }
 .carousel-title {
   text-align: center;
+}
+
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: #ffffff; /* White text */
+}
+.footer a {
+  color: #ffffff;
+}
+.footer a:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+.social-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.socmed-text {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.footer-address {
+  font-size: small;
+  margin: 0;
 }
