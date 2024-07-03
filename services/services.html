@@ -14,35 +14,43 @@
   </head>
   <body>
     <!-- <div class="nav-container"> -->
-    <ul class="nav justify-content-end w-100">
+    <ul class="nav justify-content-end">
       <li class="nav-item">
         <a
-          class="nav-link active"
+          class="nav-link text-decoration-none"
           aria-current="page"
           href="./../home/index.html"
           >Home</a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="services.html">Services</a>
+        <a
+          class="nav-link text-decoration-none color-white"
+          href="./services.html"
+          >Services</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
+        <a class="nav-link text-decoration-none" href="#">Gallery</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link text-decoration-none" href="../about/about.html"
+          >About Us</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" aria-disabled="true">Contact Us</a>
+        <a class="nav-link text-decoration-none" aria-disabled="true"
+          >Contact Us</a
+        >
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" aria-disabled="true">Login</a>
+        <a class="nav-link text-decoration-none" aria-disabled="true">Login</a>
       </li>
     </ul>
     <!-- </div> -->
-    <div class="container-fluid maxwh">
-      <div class="row">
-        <div class="col-8 left-panel">
+    <div class="container-fluid maxwh p-0">
+      <div class="row g-0">
+        <div class="col-8 left-panel p-4">
           <!-- carousel -->
           <p class="h2 pt-4 px-4">Breaking News</p>
           <div
@@ -140,63 +148,67 @@
           <p class="h2 px-4 py-2">Latest Stories</p>
           <div class="pt-4 px-4" id="container-news"></div>
         </div>
-        <div class="col-4 right-panel py-4">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title px-2 py-2">Upcoming Events</h5>
-              <ul class="list-group">
-                <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  <div
-                    class="d-flex justify-content-center align-items-start flex-column"
+        <div class="col-4 right-panel p-4" id="rightPanel">
+          <div class="last-item">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title px-2 py-2">Upcoming Events</h5>
+                <ul class="list-group">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center"
                   >
-                    <p class="text-body-secondary">July 24 - 25, 2024</p>
-                    <p class="h6 px-0 py-0 mx-0 my-0">
-                      Tech in Asia Conference Kuala Lumpur
-                    </p>
-                  </div>
-                  <span class="badge text-bg-primary rounded-pill">14</span>
-                </li>
-                <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  <div
-                    class="d-flex justify-content-center align-items-start flex-column"
+                    <div
+                      class="d-flex justify-content-center align-items-start flex-column"
+                    >
+                      <p class="text-body-secondary">July 24 - 25, 2024</p>
+                      <p class="h6 px-0 py-0 mx-0 my-0">
+                        Tech in Asia Conference Kuala Lumpur
+                      </p>
+                    </div>
+                    <span class="badge text-bg-primary rounded-pill">14</span>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center"
                   >
-                    <p class="text-body-secondary">July 24, 2024</p>
-                    <p class="h6 px-0 py-0 mx-0 my-0">
-                      KL Conference Exclusive: Networking Night
-                    </p>
-                  </div>
-                  <span class="badge text-bg-primary rounded-pill">2</span>
-                </li>
-                <li
-                  class="list-group-item d-flex justify-content-between align-items-center"
-                >
-                  <div
-                    class="d-flex justify-content-center align-items-start flex-column"
+                    <div
+                      class="d-flex justify-content-center align-items-start flex-column"
+                    >
+                      <p class="text-body-secondary">July 24, 2024</p>
+                      <p class="h6 px-0 py-0 mx-0 my-0">
+                        KL Conference Exclusive: Networking Night
+                      </p>
+                    </div>
+                    <span class="badge text-bg-primary rounded-pill">2</span>
+                  </li>
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center"
                   >
-                    <p class="text-body-secondary">July 25, 2024</p>
-                    <p class="h6 px-0 py-0 mx-0 my-0">
-                      Founders Meetup: Malaysia
-                    </p>
-                  </div>
-                  <span class="badge text-bg-primary rounded-pill">1</span>
-                </li>
-              </ul>
+                    <div
+                      class="d-flex justify-content-center align-items-start flex-column"
+                    >
+                      <p class="text-body-secondary">July 25, 2024</p>
+                      <p class="h6 px-0 py-0 mx-0 my-0">
+                        Founders Meetup: Malaysia
+                      </p>
+                    </div>
+                    <span class="badge text-bg-primary rounded-pill">1</span>
+                  </li>
+                </ul>
+              </div>
             </div>
-          </div>
-          <div class="card my-4">
-            <div class="card-body">
-              <h5 class="card-title px-3 py-1">Latest Jobs</h5>
-              <ul class="list-group list-group-flush" id="jobs-container"></ul>
+            <div class="card my-4">
+              <div class="card-body">
+                <h5 class="card-title px-3 py-1">Latest Jobs</h5>
+                <ul
+                  class="list-group list-group-flush"
+                  id="jobs-container"
+                ></ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="./content.json"></script>
     <script src="./services.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

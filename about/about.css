@@ -1,0 +1,98 @@
+body {
+  /* width: 100vw; */
+  padding: 0%;
+  margin: 0%;
+}
+.nav {
+  position: absolute;
+  z-index: 99999;
+  width: 100vw;
+}
+
+.nav-link {
+  color: #f8f9fa;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: gold;
+}
+.cover-image-container {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  /* background-image: url("./../assets/home_cover.jpeg"); */
+  background-size: cover;
+  background: linear-gradient(
+      to right,
+      /* Direction of the gradient */ rgba(0, 0, 0, 0.1),
+      /* Dark color on the left (50% opacity) */ rgba(0, 0, 0, 0.8)
+        /* Dark color on the right (50% opacity) */
+    ),
+    url("./../assets/home_cover.jpeg") center/cover no-repeat;
+}
+
+.cover-image-title {
+  color: goldenrod;
+  text-wrap: wrap;
+}
+
+.cover-image-content {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-8%, 50%);
+  color: #fff;
+  width: 50%;
+  /* background-color: red; */
+}
+
+.cover-detail-content {
+  text-align: justify;
+  size: 2em;
+  text-wrap: wrap;
+}
+
+.cover-map-container {
+  /* background-image: url("./../assets/indonesia-map-home.png"); */
+  background-size: cover; /* or cover, depending on your needs */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; /* Set the width as needed */
+}
+
+.cover-map-title {
+  color: goldenrod;
+}
+
+.cover-map-text {
+  color: #fff;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: #ffffff; /* White text */
+}
+.footer a {
+  color: #ffffff;
+}
+.footer a:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+.social-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.socmed-text {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.footer-address {
+  font-size: small;
+  margin: 0;
+}

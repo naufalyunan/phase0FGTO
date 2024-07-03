@@ -246,6 +246,41 @@ const jobs = [
   },
 ];
 
+document.addEventListener("DOMContentLoaded", () => {
+  const rightPanel = document.getElementById("rightPanel");
+  const lastItem = rightPanel.querySelector(".last-item");
+
+  // const containerHeight = rightPanel.clientHeight;
+  // const contentHeight = rightPanel.scrollHeight;
+  // const scrollTop = window.scrollY;
+
+  // console.log("containerHeight ", containerHeight);
+  // console.log("contentHeight", contentHeight);
+  // console.log("scrollTop ", scrollTop);
+  // console.log("sum ", containerHeight + scrollTop);
+
+  function adjustLastItemPosition() {
+    const containerHeight = rightPanel.clientHeight;
+    const contentHeight = rightPanel.scrollHeight;
+    const scrollTop = window.scrollY;
+
+    console.log("containerHeight ", containerHeight);
+    console.log("contentHeight", contentHeight);
+    console.log("scrollTop ", scrollTop);
+    console.log("sum ", containerHeight + scrollTop);
+
+    if (scrollTop + containerHeight >= contentHeight) {
+      lastItem.style.position = "relative";
+    } else {
+      lastItem.style.position = "absolute";
+      lastItem.style.bottom = "0";
+    }
+  }
+
+  window.addEventListener("scroll", adjustLastItemPosition);
+  window.addEventListener("resize", adjustLastItemPosition);
+});
+
 function showNews() {
   const newsContainer = document.getElementById("container-news");
   newsContainer.innerHTML = "";
