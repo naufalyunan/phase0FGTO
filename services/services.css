@@ -10,14 +10,14 @@ body {
 }
 
 .maxwh {
-  width: 50vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-color: brown;
   padding: 0%;
 }
 
 .nav-container {
-  width: 50vw;
+  width: 100%;
   background-color: aqua;
   padding: 0;
   margin: 0;
@@ -37,7 +37,7 @@ body {
   z-index: 99999;
   width: 100%;
   bottom: 2%;
-  background-color: transparent;
+  background-color: khaki;
 }
 .carousel-title {
   text-align: center;

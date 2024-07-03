@@ -188,61 +188,61 @@ const jobs = [
     id: 1,
     name: "Technical Solutions Consultant",
     company: "Zoho Corporation",
-    img_src: "./assets/job1.png",
+    img_src: "../assets/job1.png",
   },
   {
     id: 2,
     name: "Front End Developer",
     company: "Sinarmas Digital",
-    img_src: "./assets/job2.png",
+    img_src: "../assets/job2.png",
   },
   {
     id: 3,
     name: "Devops Engineer",
     company: "Bytedance",
-    img_src: "./assets/job3.png",
+    img_src: "../assets/job3.png",
   },
   {
     id: 4,
     name: "Software Engineer",
     company: "Putra Perkasa Abadi",
-    img_src: "./assets/job4.png",
+    img_src: "../assets/job4.png",
   },
   {
     id: 5,
     name: "Mining Consultant",
     company: "Asmin Bara Bonang",
-    img_src: "./assets/job5.jpg",
+    img_src: "../assets/job5.jpg",
   },
   {
     id: 6,
     name: "Geoenergy Analyst",
     company: "Bina Indah Nusantara",
-    img_src: "./assets/job6.jpg",
+    img_src: "../assets/job6.jpg",
   },
   {
     id: 7,
     name: "Data Engineer",
     company: "Prixa.ai",
-    img_src: "./assets/job7.jpeg",
+    img_src: "../assets/job7.jpeg",
   },
   {
     id: 8,
     name: "Legal Consultant",
     company: "Yoyo Technology Indonesia",
-    img_src: "./assets/job8.png",
+    img_src: "../assets/job8.png",
   },
   {
     id: 9,
     name: "Geomechanical Analyst",
     company: "Geodynamic Research Group",
-    img_src: "./assets/job8.png",
+    img_src: "../assets/job8.png",
   },
   {
     id: 10,
     name: "UI/UX Designer",
     company: "Tiket.com",
-    img_src: "./assets/job8.png",
+    img_src: "../assets/job8.png",
   },
 ];
 
@@ -291,15 +291,6 @@ const showJobs = () => {
   jobs.forEach((el) => {
     const listEl = document.createElement("li");
     listEl.className = "list-group-item";
-    // const jobNameEl = document.createElement("p");
-    // jobNameEl.innerHTML = el.name;
-    // jobNameEl.className = "h6";
-    // const jobCompEl = document.createElement("p");
-    // jobCompEl.innerHTML = el.company;
-    // jobCompEl.className = "text-body-secondary";
-    // listEl.appendChild(jobNameEl);
-    // listEl.appendChild(jobCompEl);
-    // jobsContainer.appendChild(listEl);
     listEl.innerHTML = `
         <div class="row">
             <div class="col-10">
