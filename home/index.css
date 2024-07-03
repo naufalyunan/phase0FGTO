@@ -3,11 +3,24 @@ body {
   padding: 0%;
   margin: 0%;
 }
+.nav {
+  position: absolute;
+  z-index: 99999;
+  width: 100vw;
+}
 
+.nav-link {
+  color: #f8f9fa;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: gold;
+}
 .cover-image-container {
   position: relative;
   width: 100%;
-  height: 35vw;
+  height: 75vh;
   /* background-image: url("./../assets/home_cover.jpeg"); */
   background-size: cover;
   background: linear-gradient(
@@ -21,19 +34,23 @@ body {
 
 .cover-image-title {
   color: goldenrod;
+  text-wrap: wrap;
 }
 
 .cover-image-content {
   position: absolute;
   top: 20px;
   left: 50%;
-  transform: translate(-10%, 30%);
+  transform: translate(-8%, 50%);
   color: #fff;
+  width: 50%;
+  /* background-color: red; */
 }
 
 .cover-detail-content {
   text-align: justify;
   size: 2em;
+  text-wrap: wrap;
 }
 
 .cover-map-container {
