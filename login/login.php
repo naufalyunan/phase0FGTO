@@ -25,7 +25,9 @@ if (isset($_POST["LOGIN"])) {
         // Verify password
         if (password_verify($password, $hashedPassword)) {
             // Password is correct
-            echo "Login successful! Redirect or handle session here.";
+            echo "Login successful!";
+            sleep(2);
+            header('Location: ./../index.html') ;
         } else {
             // Password is incorrect
             echo "Invalid email or password. Please try again.";
