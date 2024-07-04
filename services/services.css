@@ -15,12 +15,12 @@ body {
 }
 
 .nav-link {
-  color: #dee0df;
+  color: black;
   font-weight: 600;
 }
 
 .nav-link:hover {
-  color: gold;
+  color: navy;
 }
 
 .maxwh {
@@ -30,7 +30,7 @@ body {
 }
 
 .nav {
-  background-color: navy;
+  background-color: rgba(127, 127, 127, 0.5);
 }
 
 .left-panel {

@@ -1,0 +1,141 @@
+body {
+  /* width: 100vw; */
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+}
+
+.title {
+  color: navy;
+}
+
+.container-fluid body {
+  display: flex;
+  height: 100vh;
+}
+
+.nav {
+  position: absolute;
+  z-index: 99999;
+  width: 100vw;
+}
+
+.nav-link {
+  color: #dee0df;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: gold;
+}
+
+.cover-image-container {
+  position: relative;
+  width: 100vw;
+  height: 50vh;
+  /* background-image: url("./../assets/home_cover.jpeg"); */
+  background-size: cover;
+  background: linear-gradient(
+      to right,
+      /* Direction of the gradient */ rgba(0, 0, 0, 0.9),
+      /* Dark color on the left (50% opacity) */ rgba(0, 0, 0, 0.4)
+        /* Dark color on the right (50% opacity) */
+    ),
+    url("./../assets/portofolio_cvr.jpeg") center/cover no-repeat;
+}
+
+.cover-image-title {
+  color: gold;
+  text-wrap: wrap;
+  font-weight: 700;
+}
+
+.cover-image-content {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  transform: translate(-8%, 80%);
+  color: #f8f9fa;
+  max-width: 50rem;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: #ffffff; /* White text */
+}
+.footer a {
+  color: #ffffff;
+}
+.footer a:hover {
+  color: #f8f9fa;
+  text-decoration: none;
+}
+.social-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.socmed-text {
+  font-size: 20px;
+  margin-left: 10px;
+}
+.footer-address {
+  font-size: small;
+  margin: 0;
+}
+
+.section-header {
+  background-color: #343a40;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+.section-header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+.section-container {
+  padding: 30px;
+}
+
+.press-release-item,
+.interview-item,
+.article-item {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.press-release-item img,
+.interview-item img,
+.article-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.press-release-item:hover img,
+.interview-item:hover img,
+.article-item:hover img {
+  transform: scale(1.1);
+}
+.item-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.press-release-item:hover .item-caption,
+.interview-item:hover .item-caption,
+.article-item:hover .item-caption {
+  background-color: rgba(0, 0, 0, 0.9);
+}
