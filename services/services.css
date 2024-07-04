@@ -85,3 +85,11 @@ body {
   font-size: small;
   margin: 0;
 }
+
+.search-input {
+  max-width: 50%;
+  padding: 10px;
+  max-height: 36px;
+  border-radius: 50px;
+  border: 1px solid goldenrod;
+}

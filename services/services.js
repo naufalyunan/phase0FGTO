@@ -365,6 +365,45 @@ const jobs = [
   },
 ];
 
+document.addEventListener("DOMContentLoaded", function () {
+  const searchInput = document.getElementById("searchInput");
+  const searchResults = document.getElementById("jobs-container");
+  console.log(searchInput);
+  console.log(searchResults);
+
+  function displayResults(results) {
+    searchResults.innerHTML = "";
+    results.forEach((el) => {
+      const listEl = document.createElement("li");
+      listEl.className = "list-group-item";
+      listEl.innerHTML = `
+        <div class="row">
+            <div class="col-10">
+                <p class="h6 mx-0">${el.name}</p>
+                <p class="text-body-secondary">${el.company}</p>
+            </div>
+            <div class="col-2 d-flex justify-content-center align-items-center">
+                <img src=${el.img_src} alt="company_image" style="width:50px;"/>
+            </div>
+        </div>
+    `;
+      searchResults.appendChild(listEl);
+    });
+  }
+
+  displayResults(jobs);
+
+  searchInput.addEventListener("input", function () {
+    const query = searchInput.value.toLowerCase();
+    const filteredData = jobs.filter(
+      (item) =>
+        item.name.toLowerCase().includes(query) ||
+        item.company.toLowerCase().includes(query)
+    );
+    displayResults(filteredData);
+  });
+});
+
 function showNews() {
   const newsContainer = document.getElementById("container-news");
   newsContainer.innerHTML = "";
@@ -427,5 +466,5 @@ const showJobs = () => {
 
 window.onload = function () {
   showNews();
-  showJobs();
+  // showJobs();
 };
