@@ -76,7 +76,6 @@ body {
   border-radius: 20px;
   background: linear-gradient(135deg, #6e8efb, #a777e3);
   border: none;
-  width: 25%;
 }
 .btn-primary:hover {
   background: linear-gradient(135deg, #a777e3, #6e8efb);

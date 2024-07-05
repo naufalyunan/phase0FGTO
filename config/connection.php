@@ -1,5 +1,5 @@
 <?php
-    $db_host = "127.0.0.1:3307"; //host db
+    $db_host = "127.0.0.1:3306"; //host db
     $db_username = "root";
     $db_password = "";
     $db_name = "fp_ph0_ftgo";

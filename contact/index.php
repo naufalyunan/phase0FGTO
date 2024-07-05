@@ -27,34 +27,34 @@
         <a
           class="nav-link text-decoration-none"
           aria-current="page"
-          href="./../home/index.html"
+          href="./../index.html"
           >Home</a
         >
       </li>
       <li class="nav-item">
         <a
           class="nav-link text-decoration-none color-white"
-          href="./../services/services.html"
+          href="./../services/index.html"
           >Services</a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link text-decoration-none" href="./gallery.html"
+        <a class="nav-link text-decoration-none" href="./index.html"
           >Gallery</a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link text-decoration-none" href="../about/about.html"
+        <a class="nav-link text-decoration-none" href="../about/index.html"
           >About Us</a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link text-decoration-none" href="./contact.html"
+        <a class="nav-link text-decoration-none" href="./index.php"
           >Contact Us</a
         >
       </li>
       <li class="nav-item">
-        <a class="nav-link text-decoration-none" href="./../login/login.html"
+        <a class="nav-link text-decoration-none" href="./../login/index.php"
           >Login</a
         >
       </li>
@@ -186,7 +186,7 @@
               </div>
               <div class="col-6 g-4">
                 <a
-                  href="./../about/about.html"
+                  href="./../about/index.html"
                   class="social-icon text-decoration-none d-flex justify-content-start align-items-center"
                 >
                   <span class="h6">About Us</span>
@@ -196,7 +196,7 @@
             <div class="row">
               <div class="col-6 g-4">
                 <a
-                  href="./../services/services.html"
+                  href="./../services/index.html"
                   class="social-icon text-decoration-none d-flex justify-content-start align-items-center"
                 >
                   <span class="h6">Services</span>
@@ -204,7 +204,7 @@
               </div>
               <div class="col-6 g-4">
                 <a
-                  href="./contact.html"
+                  href="./index.php"
                   class="social-icon text-decoration-none d-flex justify-content-start align-items-center"
                 >
                   <span class="h6">Contact Us</span>
